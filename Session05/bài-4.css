@@ -1,0 +1,15 @@
+#third{
+    color: rgb(118, 117, 117);
+}
+#first{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 60px;
+}
+#time{
+    font-weight: lighter;
+    color: rgb(118, 117, 117) ;
+}
+b{
+    font-weight: bolder;
+}

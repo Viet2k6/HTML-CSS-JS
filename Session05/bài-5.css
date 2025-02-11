@@ -1,0 +1,14 @@
+h2{
+    color: rgb(47, 110, 228);
+    font-size: 25px;
+    
+}
+table{
+    background-color: rgb(247, 242, 214);
+    border-left: 10px solid  rgb(244, 221, 89);
+    border-collapse: collapse;
+    
+} 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}

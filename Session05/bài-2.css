@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 100vh;
+}
+p{
+    color: chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dotted underline;
+    text-decoration-color: aqua;
+}
