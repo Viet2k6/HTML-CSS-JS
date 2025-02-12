@@ -1,0 +1,54 @@
+body {  
+    font-family: Arial, sans-serif;    
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cent {
+    place-items: center; 
+  }
+  table{
+    width: 60%;
+    border: 1px solid rgb(210, 191, 208);
+    border-collapse: collapse;
+    text-align: center;
+  } 
+    
+  th, td {  
+    padding: 12px 15px;  
+    border-bottom: 1px solid pink;
+    border-right: 1px solid pink;
+  }  
+    
+  th {  
+    background-color: rgb(43, 104, 225); 
+    color: white;  
+  }  
+  
+  table tbody tr:nth-child(odd){
+    background-color: rgb(215, 223, 223);
+  }
+
+  button {  
+    margin-right: 5px;  
+    padding: 5px 10px;  
+    border: none;  
+    color: white;  
+    cursor: pointer;  
+}  
+
+.view {  
+    background-color: rgb(21, 152, 21);  
+}  
+
+.update {  
+    background-color: rgb(255, 179, 0);  
+    color: black;  
+}  
+
+.delete {  
+    background-color: rgb(215, 18, 18);  
+}  
