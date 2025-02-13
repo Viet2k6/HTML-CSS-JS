@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    width: 800px;
+    position: relative;
+}
+
+.heading{
+    padding: 20px;
+}
+
+div:nth-child(4){
+    background-color: #d0e2ff;
+}
+
+.text-01{
+    font-weight: 600;
+}
+
+.text-02{
+    color: #d83a88;
+}
+
+.icon-01{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.icon-02{
+    position: absolute;
+    right: 20px;
+    top: 80px;
+}
+
+.icon-03{
+    position: absolute;
+    right: 20px;
+    top: 270px;
+}

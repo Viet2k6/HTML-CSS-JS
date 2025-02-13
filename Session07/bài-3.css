@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 20px;
+}
+.header>h1{
+    font-size: xx-large;
+    position: relative;
+    top: -46px;
+    left: 60px;
+}
+.img2{
+    margin-left: 20px;
+    position: relative;
+    top: -35px;
+}
+h2{
+    margin-left: 20px;
+    font-size: x-large;
+}
+h4{
+    padding: 20px;
+    font-size: large;
+    color: rgb(23, 4, 75);
+}
+p{
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 530;
+    color: rgb(113, 112, 112);
+}
