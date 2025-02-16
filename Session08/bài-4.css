@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #333;
+}
+h2 {
+    border-bottom: 2px solid #d9534f;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.icon-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+}
+.icon-box i {
+    font-size: 24px;
+    color: #d9534f;
+    transform: rotate(-45deg);
+}
+.text-box h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-box p {
+    margin: 0;
+    color: #666;
+}
