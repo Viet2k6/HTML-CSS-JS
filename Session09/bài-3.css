@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 655px;
+    padding: 8px;
+    gap: 5px;
+}
+.parent .child{
+    background-color: rgb(53, 152, 219);
+    border: none;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    color: white;
+}
+#parent2{
+    padding-top: 0;
+    border-top: none;
+}
+#parent1{
+    border-bottom: none;
+}
+#child5{
+    flex-grow: 1;
+}
