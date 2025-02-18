@@ -1,0 +1,53 @@
+* {
+    font-family: "Dancing Script", serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+    gap: 25px;
+    padding-top: 15px;
+    list-style: none;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+.searchbar {
+    border: 1px solid gray;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-color: gray;
+}
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 59px;
+    border: none;
+    position: relative;
+    top: 5px;
+    left: 8px;
+    background-color: gray;
+    color: white;
+}
+.searchbar i {
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+.first-li {
+    font-weight: bold;
+    color: black;
+}

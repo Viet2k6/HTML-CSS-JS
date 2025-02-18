@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 400px;
+    background-color: bisque;
+}
+
+.nav{
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+.content{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.infor .inf1{
+    font-size: 30px;
+}
+
+.infor .inf2{
+    padding: 30px 0px;
+}
+
+.bnt{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(219, 70, 70);
+    color: white;
+}
+
+.img{
+    width: 370px;
+    height: 180px;
+    background-image: url('https://i-giaitri.vnecdn.net/2009/11/03/doreamon-1345682403_480x0.jpg');
+    background-size: cover;
+    border-radius: 100px;
+    filter: drop-shadow(-8px 16px 0px #ffffff);
+}

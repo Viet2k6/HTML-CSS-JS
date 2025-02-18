@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container{
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+  }
+  
+  .container .image{
+      width: 50%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  
+  .container .image img{
+      width: 100%;
+      border-radius: 5px;
+  }
+  
+  .container .image p{
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      border: 0.5px solid white;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 15px;
+  }
+  
+  .container .describe{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  .container .describe .actor{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .container .describe .actor .actorPic img{
+      width: 50px;
+      border-radius: 100%;
+  }
+  
+  .container .describe .actor .actorName{
+      font-weight: 600;
+  }
+  
+  .container .describe .date p{
+      opacity: 0.6;
+  }
+  
+  .container .describe .title{
+      font-size: 24px;
+      font-weight: 500;
+  }
+  
+  .container .describe .content{
+      opacity: 0.7;
+      font-size: 18px;
+  }
