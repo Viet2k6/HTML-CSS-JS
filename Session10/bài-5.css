@@ -1,98 +1,68 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(146, 141, 141);
-    color: rgb(44, 48, 91);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    background-color:#bababa;
+    margin: 0;
+    padding: 20px;
 }
 
-.title1 {
-    width: 800px;
-    text-align: left;
-    margin-bottom: 20px;
+.container {
+    max-width: 800px;
+    background:#bababa;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
 }
 
-h4 {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h2 {
+    font-size: 22px;
 }
 
 .post {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 20px;
-    width: 800px;
-    padding: 20px;
-    border-bottom: 1px solid rgb(235, 234, 234);
+    padding: 15px 0;
+    border-bottom: 1px solid#bababa;
 }
 
 .post img {
-    width: 180px;
-    height: auto;
+    width: 120px;
+    height: 120px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .post-content {
-    width: calc(100% - 220px);
+    flex: 1;
 }
 
-.post-title h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
+h3 {
+    margin: 0;
 }
 
-.post-date {
-    margin-bottom: 10px;
+.badge {
+    background:#142850;
+    color: #92b9c8;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
 }
 
-.post-date span:nth-of-type(1) {
-    margin-right: 10px;
-    background-color: navy;
-    color: white;
-    font-weight: bold;
+.category {
+    color: #3b3e52;
     font-size: 14px;
-    border-radius: 20px;
-    padding: 5px 10px;
 }
 
-.platform {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+p {
+    font-size: 14px;
+    color:#2b2e46;
 }
 
-.socials {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 10px;
+footer {
+    text-align: center;
+    padding: 20px 0;
 }
 
-.socials a {
-    text-decoration: none;
-    color: rgb(44, 48, 91);
-    font-size: 24px;
-}
-
-.rights {
-    font-size: 13px;
+.social-icons i{
+    color: #3b3e52;
+    padding: 5px;
 }
