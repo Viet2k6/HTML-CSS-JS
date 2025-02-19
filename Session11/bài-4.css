@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.block-01{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+.block-child-01{
+    background-color: orange;
+    flex: 1;
+}
+
+.block-02{
+    flex: 3;
+    background-color: yellow;
+}
+
+.block-03{
+    display: flex;
+    flex: 2;
+    gap: 10px;
+}
+
+.block-child-03{
+    background-color: blue;
+    flex: 1;
+}
+
+.block-04{
+    display: flex;
+    flex: 2;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+.block-child1-04 {
+    background-color: gray;
+    flex: 1;  
+}
+.block-child2-04 {
+    background-color: gray;
+    flex: 1;
+}
+.block-child3-04 {
+    background-color: gray;
+    flex: 1;
+}
+.block-child4-04 {
+    background-color: gray;
+    flex: 1;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    .block-01{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-03{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-04{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 3;
+        padding-bottom: 10px;
+    }
+
+    .block-child1-04 {
+        width: calc(50% - 10px);
+        height: calc(50% - 10px);
+        flex: none;
+    }
+    .block-child2-04 {
+        width: calc(50% - 10px);
+        height: calc(50% - 10px);
+        flex: none;
+    }
+    .block-child3-04 {
+        width: calc(50% - 10px);
+        height: calc(50% - 10px);
+        flex: none;
+    }
+    .block-child4-04 {
+        width: calc(50% - 10px);
+        height: calc(50% - 10px);
+        flex: none;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .block-01{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-03{
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+    }
+
+    .block-04{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        padding-bottom: 5px;
+    }
+
+    .block-child1-04 {
+        width: 100%;
+        flex: none;
+    }
+    .block-child2-04 {
+        display: none;
+    }
+    .block-child3-04 {
+        display: none;
+    }
+    .block-child4-04 {
+        display: none;
+    }
+}

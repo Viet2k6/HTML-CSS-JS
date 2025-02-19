@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+    padding: 20px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #b2d6ff;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+main div:nth-of-type(1) {
+    background-color:#f5cf8d;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 33.33%;
+}
+main div:nth-of-type(2) {
+    background-color: #c8c6fa;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 33.33%;
+}
+main div:nth-of-type(3){
+    background-color:#f09a9d;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 33.33%;
+}
+main div:nth-of-type(4){
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #d7e9fe;
+    width: 100%;
+}
+main div:nth-of-type(5){
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    background-color: #ebedf0;
+    width: 100%;
+}
+@media screen and (max-width:1200px) {
+    main div:nth-of-type(1){
+        background-color: #f5cf8d;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 50%;
+        order: 3;
+    }
+    main div:nth-of-type(2){
+        background-color: #c8c6fa;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 50%;
+        order: 5;
+    }
+    main div:nth-of-type(3){
+        background-color: #f09a9d;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 50%;
+        order: 4;
+    }
+    main div:nth-of-type(4){
+        height: 200px;
+        line-height: 100px;
+        text-align: center;
+        background-color:#d7e9fe;
+        width: 50%;
+        order: 2;
+    }
+    main div:nth-of-type(5){
+        height: 300px;
+        line-height: 300px;
+        text-align: center;
+        background-color: #ebedf0;
+        width: 100%;
+        order: 1;
+    }
+}
+@media screen and (max-width:768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    main div:nth-of-type(1){
+        background-color: #f5cf8d;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 100%;
+        order: 3;
+    }
+    main div:nth-of-type(2){
+        background-color: #c8c6fa;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 100%;
+        order: 5;
+    }
+    main div:nth-of-type(3){
+        background-color: #f09a9d;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 100%;
+        order: 4;
+    }
+    main div:nth-of-type(4) {
+        height: 200px;
+        line-height: 100px;
+        text-align: center;
+        background-color: #d7e9fe;
+        width: 100%;
+        order: 2;
+    }
+}
