@@ -13,7 +13,7 @@ if (n < 0) {
 
     arr.sort((a, b) => a - b);
     let max = arr[arr.length - 1];
-    let secondMax = null;
+    let maxSecond = null;
 
     for (let i = arr.length - 2; i >= 0; i--){
         if (arr[i] < max) {
@@ -21,8 +21,8 @@ if (n < 0) {
             break;
         }
     }
-    if (secondMax !== null){
-        alert(`Số lớn thứ hai là: ` + secondMax);
+    if (maxSecond !== null){
+        alert(`Số lớn thứ hai là: ` + maxSecond);
     } else {
         alert(`Không có số lớn thứ hai`);
     }
