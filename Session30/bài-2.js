@@ -50,8 +50,8 @@ function displayBook() {
     alert("Danh sách sách trống.");
     return;
   }
-  let category = prompt("Nhập thể loại sách muốn xem:").trim();
-  let filteredBooks = books.filter(book => book.category.toLowerCase() === category.toLowerCase());
+  let category = prompt("Nhập thể loại sách muốn xem:");
+  let filteredBooks = books.filter(book => book.category === category);
   if (filteredBooks.length === 0) {
     alert("Không có sách nào trong thể loại này.");
   } else {
@@ -75,8 +75,8 @@ function findBook() {
   let book;
 
   if (option === 1) {
-    let name = prompt(`Nhập tên sách cần tìm:`).trim();
-    book = books.find(book => book.name.toLowerCase() === name.toLowerCase());
+    let name = prompt(`Nhập tên sách cần tìm:`);
+    book = books.find(book => book.name === name);
   } else if (option === 2) {
     let id = +prompt(`Nhập ID sách cần tìm:`);
     book = books.find(book => book.id === id);
@@ -118,7 +118,7 @@ function buyProduct() {
 }
 
 function sortBooks() {
-  let option = prompt(`a. Giá tăng dần\nb. Giá giảm dần`).trim().toLowerCase();
+  let option = prompt(`a. Giá tăng dần\nb. Giá giảm dần`);
 
   if (option === 'a') {
     books.sort((a, b) => a.price - b.price);

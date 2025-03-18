@@ -7,7 +7,6 @@ let products = [
 let choice;
 let cart = [];
 let menu = `
-==============MENU================
 1. Hiển thị các sản phẩm theo danh mục.
 2. Chọn sản phẩm để mua bằng cách nhập ID sản phẩm.
 3. Sắp xếp các sản phẩm trong cửa hàng theo giá.
@@ -40,8 +39,8 @@ while (choice !== 5) {
 }
 
 function displayDish() {
-    let searchCategory = prompt(`Mời nhập danh mục muốn hiển thị:`).trim();
-    let arr = products.filter(product => product.category.toLowerCase() === searchCategory.toLowerCase());
+    let searchCategory = prompt(`Mời nhập danh mục muốn hiển thị:`);
+    let arr = products.filter(product => product.category === searchCategory);
 
     if (arr.length === 0) {
         alert(`Không có món ăn nào trong danh mục này`);
@@ -80,7 +79,7 @@ function buyProduct() {
 }
 
 function sortProducts() {
-    let subChoice = prompt(`Chọn cách sắp xếp:\n a. Tăng dần\n b. Giảm dần`).trim().toLowerCase();
+    let subChoice = prompt(`Chọn cách sắp xếp:\n a. Tăng dần\n b. Giảm dần`);
     if (subChoice === 'a') {
         products.sort((a, b) => a.price - b.price);
         alert(`Sắp xếp thành công theo giá tăng dần!`);
