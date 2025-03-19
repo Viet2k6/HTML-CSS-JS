@@ -1,0 +1,10 @@
+form {
+    border: 1px solid black;
+    padding: 20px;
+    width: 180px;
+}
+button {
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
+}
