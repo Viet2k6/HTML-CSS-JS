@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    background-color: rgb(238, 237, 237) !important;
+}
+
+img {
+    border-radius: 8px;
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    background-color: gray !important;
+    padding: 0 !important;  
+    gap: 0 !important;
+}
+
+.heightChange {
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
