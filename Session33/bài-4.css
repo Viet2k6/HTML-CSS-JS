@@ -1,0 +1,52 @@
+#container {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    gap: 10px;
+    padding: 0 15px 15px;
+    border: 2px solid rgb(224, 222, 222);
+    border-radius: 5px;
+}
+
+img {
+    height: 150px;
+}
+
+input {
+    width: 1200px;
+    padding: 10px;
+    border: 2px solid rgb(166, 165, 165);
+}
+
+button {
+    width: 70px;
+    color: white;
+    background-color: green;
+}
+
+input, button, .buy {
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buy {
+    width: 50px;
+    background-color: rgb(17, 82, 186);
+    color: white;
+}
+
+.info {
+    height: 60px;
+}
+
+.title, .price {
+    height: 20px;
+}
+

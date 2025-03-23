@@ -1,0 +1,26 @@
+div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid rgb(236, 235, 235);
+    border-radius: 8px;
+    width: 300px;
+    padding: 8px;
+    position: relative;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 40px; 
+}
+
+i {
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 10px; 
+}
