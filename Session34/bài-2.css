@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+input, select {
+    width: 150px;
+    border: 1px solid rgb(166, 166, 166);
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+select {
+    height: 42px;
+}
+
+form {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+table {
+    font-size: 15px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thead {
+    background-color: rgb(233, 230, 230);
+}
+
+td {
+    border-bottom: 1px solid rgb(209, 207, 207);
+    text-align: center;
+}
+
+button {
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submitBtn {
+    background-color: rgb(53, 103, 251);
+    width: 80px;
+}
+
+.fix {
+    background-color: orange;
+}
+
+.delete {
+    background-color: red;
+}

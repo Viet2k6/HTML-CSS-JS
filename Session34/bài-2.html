@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="./bài-2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Task Management</h2>
+        <form id="taskForm">
+            <input type="text" id="content" placeholder="Content">
+            <input type="date" id="date">
+            <select id="status">
+                <option hidden>Choose status</option>
+                <option value="Pending">Pending</option>
+                <option value="Completed">Completed</option>
+                <option value="Rejected">Rejected</option>
+            </select>
+            <input type="text" id="user" placeholder="Username">
+            <button id="submitBtn">Submit</button>
+        </form>
+        <table id="infoTable" cellspacing="0" cellpadding="6">
+            <tr class="thead">
+                <td><b>#</b></td>
+                <td><b>Content</b></td>
+                <td><b>Due date</b></td>
+                <td><b>Status</b></td>
+                <td><b>Assigned to</b></td>
+                <td><b>Action</b></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./bài-2.js"></script>
+</body>
+</html>
